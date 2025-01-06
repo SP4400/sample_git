@@ -12,3 +12,14 @@
   461  ls
   462  ls -a
   463  history
+ 400  cat package.json
+  401  vi package.json
+  402  docker build -t my-react-app .
+  403  vi package.json
+  404  docker build -t my-react-app .
+  405  docker build -t my-react-app .
+  406  docker run -p 3000:3000 my-react-app
+  407  docker stop my-react-app
+  408  docker ps
+  409  docker stop 7345afa03501
+  410  docker ps
