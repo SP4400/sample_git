@@ -1,0 +1,14 @@
+ 450  tar cvf sample_scripts "*.sh"
+  451  tar cvf sample_scripts *.sh
+  452  ls
+  453  find -name sample_scripts
+  454  cat sample_scripts
+  455  ls
+  456  mkdir sample_git | cd sample_git
+  457  mkdir sample_git
+  458  cd sample_git
+  459  git config --global user.name "Swapnil Patel"
+  460  git init
+  461  ls
+  462  ls -a
+  463  history
